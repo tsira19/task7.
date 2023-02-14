@@ -1,0 +1,154 @@
+@font-face {
+    font-family: 'FiraGo';
+    src: url(FiraGO-Bold.woff);
+}
+*{
+    box-sizing: border-box;
+}
+.container{
+    width: 1223px;
+    margin-inline: auto;
+}
+.container>table{
+    border-collapse: collapse;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    width: 100%;
+    
+    
+}
+.container th{
+    padding-top: 23px;
+    padding-bottom: 23px;
+    text-align: left;
+    padding-left: 25px;
+
+}
+.container tbody tr{
+    background: #FAFAFA;
+   
+    
+}
+.container tbody tr td:nth-child(1) input{
+    width: 359px;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #ECECEC;
+    border-radius: 10px;
+    padding: 16px 286px 15px 24px;
+
+}
+.container tbody tr td:nth-child(2) input{
+width: 266px;
+height: 50px;
+background: #FFFFFF;
+border: 1px solid #ECECEC;
+border-radius: 10px;
+padding: 16px 193px 15px 24px;
+
+
+}
+.container tbody tr td:nth-child(3) input{
+width: 217px;
+height: 50px;
+background: #FFFFFF;
+border: 1px solid #ECECEC;
+border-radius: 10px;
+padding: 16px 144px 15px 24px;
+
+}
+.container tbody tr td:nth-child(4) input{
+width: 141px;
+height: 50px;
+background: #FFDD04;
+border-radius: 10px;
+font-family: 'FiraGO';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 18px;
+
+}
+.container td{
+    padding-top: 17px;
+    padding-bottom:17px;
+
+}
+.container input{
+    border: none;
+}
+.card{
+    width: 1223px;
+    margin-inline: auto;
+}
+.card>table{
+    border-collapse: collapse;
+    background: #FFFFFF;
+    border: 1px solid #EDEDED;
+    width: 100%;
+    
+}
+.card thead th{
+    padding-top: 23px;
+    padding-bottom: 23px;
+    text-align: left;
+    padding-left: 25px;
+}
+.card tbody td{
+    padding-top: 17px;
+    padding-bottom:17px;
+    padding-left: 25px;
+}
+.card_1 input{
+    width: 141px;
+    height: 40px;
+    background: #FFDD04;
+    border-radius: 10px;
+    border: none;
+    float: right;
+    font-family:'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+
+}
+.card_1 h1{
+    display: inline;
+    font-family:'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+
+
+}
+.card_1{
+    margin-top: 72px;
+    margin-bottom: 29px;
+}
+.card td input:nth-child(1){
+    width: 93px;
+    height: 33px;
+    background: #FF8271;
+    border-radius: 10px;
+    border: none;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+}
+.card td input:nth-child(2){
+    width: 93px;
+    height: 33px;
+    background: #FFDD04;
+    border-radius: 10px;
+    border:none;
+    font-family: 'FiraGO';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+}
+
